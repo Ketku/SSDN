@@ -4,7 +4,7 @@
     xmlns:gap = "http://susociodenegocios.com"
     id        = "com.ssdn.mba"
     version   = "2.0.0">
-    <name>Hello SSDN</name>
+    <name>Su Socio de Negocios</name>
     
     <description>
         Su Socio de Negocios
@@ -15,8 +15,7 @@
     </author>
     
     <icon src="res/icon/icon.png"        width="512" height="512" />
-    <icon src="res/icon/cordova_android_96.png" width="96"  height="96"  gap:platform="android" />
-    <icon src="res/icon/cordova_bb_80.png"      width="80"  height="80"  gap:platform="blackberry" />
+    
     <icon src="res/icon/icon@2x.png"    width="144" height="144" gap:platform="ios" />
     
   
@@ -25,9 +24,9 @@
     <gap:splash src="res/screen/ipad_retina_landscape.png"       width="2048" height="1496" gap:platform="ios" />
     <gap:splash src="res/screen/ipad_retina_portrait.png"        width="1536" height="2008" gap:platform="ios" />
     <gap:splash src="res/screen/iphone_landscape.png"            width="480"  height="320"  gap:platform="ios" />
-    <gap:splash src="res/screen/Default~iphone.png"             width="320"  height="480"  gap:platform="ios" />
+    <gap:splash src="res/screen/Default2~iphone.png"             width="320"  height="480"  gap:platform="ios" />
     <gap:splash src="res/screen/iphone_retina_landscape.png"     width="960"  height="640"  gap:platform="ios" />
-    <gap:splash src="res/screen/Default@2x~iphone.png"      width="640"  height="960"  gap:platform="ios" />
+    <gap:splash src="res/screen/Default2@2x~iphone.png"      width="640"  height="960"  gap:platform="ios" />
    
     
     <feature name="http://api.phonegap.com/1.0/device" />
