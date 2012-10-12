@@ -1,0 +1,39 @@
+#home {
+	text-align:center;
+	background: url('../images/bg.png');
+	
+}
+
+#home .ui-controlgroup {
+	width:80%;
+	margin:0 auto;
+}
+#front-button .ui-btn-text {
+	font-size:0.8em;
+}
+#front-button {
+	width:90%;
+}
+.ui-link-inherit{
+	margin:2px;
+}
+#markpost img{
+	width:100%;
+	height:auto;
+	margin:0 auto;
+}
+#manpost img{
+	width:100%;
+	height:auto;
+	margin:0 auto;
+}
+#financepost img{
+	width:100%;
+	height:auto;
+	margin:0 auto;
+}
+	
+#vs_footer .ui-btn-text {
+	font-size:0.75em;
+}
+
