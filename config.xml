@@ -15,12 +15,11 @@
     </author>
     
     <icon src="res/icon/icon.png"        width="512" height="512" />
-    
     <icon src="res/icon/icon@2x.png"    width="144" height="144" gap:platform="ios" />
     
   
-	<gap:splash src="res/screeb/Default2~iphone.png" width="320" height="480" />
-	<gap:splash src="res/screen/Default2@2x~iphone.png" width="640" height="960" />
+	<gap:splash src="res/screen/Default2~iphone.png"  width="320" height="480" gap:platform="ios"/>
+	<gap:splash src="res/screen/Default2@2x~iphone.png" width="640" height="960" gap:platform="ios" />
 
    
     
