@@ -11,7 +11,7 @@
     </description>
     
     <author href="http://susociodenegocios.com" email="pketonen@elclasificado.com">
-        Apache Cordova Team
+       EC Hispanic Media
     </author>
     
     <icon src="res/icon/icon.png"        width="512" height="512" />
@@ -19,12 +19,14 @@
     <icon src="res/icon/icon@2x.png"    width="144" height="144" gap:platform="ios" />
     
   
-<gap:splash src="splash.png"/>
+	<gap:splash src="res/screeb/Default2~iphone.png" width="320" height="480" />
+	<gap:splash src="res/screen/Default2@2x~iphone.png" width="640" height="960" />
+
    
     
     <feature name="http://api.phonegap.com/1.0/device" />
     
-    <preference name="phonegap-version" value="1.9.0" />
+    <preference name="phonegap-version" value="2.1.0" />
     <preference name="orientation"      value="default" />
     <preference name="target-device"    value="universal" />
     <preference name="fullscreen"       value="false" />
