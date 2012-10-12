@@ -107,7 +107,7 @@ function tipsPosts(data) {
 } //lists all the posts
 
 function showPostTips(id) {
-	$.getJSON('http://susociodenegocios.com/?json=get_post&post_id=' + id + '&callback=?',
+	$.getJSON('http://ketonen.co/ssdn/?json=get_post&post_id=' + id + '&callback=?',
 	function(data) {
 		var output='';
 		output += '<h3>' + data.post.title + '</h3>' ;
