@@ -13,7 +13,13 @@
     <author href="http://susociodenegocios.com" email="pketonen@elclasificado.com">
        EC Hispanic Media
     </author>
-    
+    <feature name="http://api.phonegap.com/1.0/device" />
+
+	    <preference name="phonegap-version" value="2.1.0" />
+	    <preference name="orientation"      value="default" />
+	    <preference name="target-device"    value="universal" />
+	    <preference name="fullscreen"       value="false" />
+	
 	<icon src="res/icon/icon.png"/>
 	<icon src="res/icon/ssdn_ios_57.pg"	 gap:platform="ios"	  width="57" height="57" />
   	<icon src="res/icon/icon-72.png"     gap:platform="ios"   width="72" height="72" />
@@ -25,10 +31,5 @@
 
 
 
-	    <feature name="http://api.phonegap.com/1.0/device" />
-
-	    <preference name="phonegap-version" value="2.1.0" />
-	    <preference name="orientation"      value="default" />
-	    <preference name="target-device"    value="universal" />
-	    <preference name="fullscreen"       value="false" />
+	    
 </widget>
