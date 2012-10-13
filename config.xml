@@ -1,7 +1,7 @@
 
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns     = "http://www.w3.org/ns/widgets"
-    xmlns:gap = "http://www.phonegap.com/ns/1.0"
+<widget xmlns = "http://www.w3.org/ns/widgets"
+    xmlns:gap = "http://phonegap.com/ns/1.0"
     id        = "com.ssdn.mba"
     version   = "1.0.0">
     <name>Su Socio de Negocios</name>
@@ -13,7 +13,8 @@
     <author href="http://susociodenegocios.com" email="pketonen@elclasificado.com">
        EC Hispanic Media
     </author>
-    <feature name="http://api.phonegap.com/1.0/device" />
+
+    	<feature name="http://api.phonegap.com/1.0/device" />
 
 	    <preference name="phonegap-version" value="2.1.0" />
 	    <preference name="orientation"      value="default" />
@@ -26,8 +27,8 @@
 	<icon src="res/icon/icon@2x.png"   	 gap:platform="ios"   width="144" height="144"/>
 
 	<gap:splash src="splash.png" />
-	<gap:splash src="res/screen/Default.png"  width="320" height="480" gap:platform="ios"/>
-	<gap:splash src="res/screen/Default_at_2x.png" width="640" height="960" gap:platform="ios" />
+	<gap:splash src="res/screen/Default.png"  width="320" height="480" />
+	<gap:splash src="res/screen/Default_at_2x.png" width="640" height="960" />
 
 
 
